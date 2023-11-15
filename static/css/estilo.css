@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Poltawski+Nowy:ital,wght@1,700&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #000000; 
+    font-family: 'Hind', sans-serif;
+}
+h4{
+    color: white;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+textarea {
+    border-radius: 10px; /* Raio dos cantos da caixa de texto */
+    padding: 10px;
+    width: 300px; /* Largura da caixa de texto, ajuste conforme necessário */
+    box-sizing: border-box;
+    background-color: white; /* Cor roxa mais clara ou a cor desejada */
+    color: white; /* Cor do texto dentro da caixa de texto */
+}
+
+button {
+    border-radius: 10px; /* Raio dos cantos do botão */
+    padding: 10px 20px;
+    background-color: #4b0082; /* Cor roxa mais escura ou a cor desejada */
+    color: white; /* Cor do texto no botão */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #800080; /* Mudar a cor quando o mouse estiver sobre o botão */
+}
+#prediction{
+    color: white;
+}
+#text{
+    color: black;
+}
+
